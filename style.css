@@ -158,6 +158,9 @@ h3 {
   .descarbonizacao,
   .aguaReutilizada {
     text-align: justify;
+    margin: auto 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 }
