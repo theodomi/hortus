@@ -1,0 +1,124 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 700 15px/1.8 'Playfair Display', serif;
+}
+
+.scroll_bar {
+  background-color: transparent;
+  overflow-y: scroll;
+}
+
+.scroll_bar::-webkit-scrollbar {
+  display: none;
+}
+
+/*IMAGENS*/
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  position: relative;
+  opacity: 0.80;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("https://rede1mulheresnegras.my.canva.site/site-de-portf-lio-e-curr-culo-consultoria-escuro-simples-azul-escuro-e-bege/images/62cf1b99c81df242aa4f1221154038cc.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://rede1mulheresnegras.my.canva.site/site-de-portf-lio-e-curr-culo-consultoria-escuro-simples-azul-escuro-e-bege/images/ac3fa62f6509b3fbd3b69658954cab50.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://68.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("https://68.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg");
+  min-height: 400px;
+}
+
+/*LANDING PAGE*/
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.caption span.title {
+  background-color: #a7ab5f;
+  color: #fff;
+  padding: 18px;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.caption p {
+  font-size: 25px;
+  font-weight: 999;
+  color: rgb(0, 0, 0);
+  text-shadow: #111 1px 0.5px;
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.about,
+.whatWeDo,
+.whyWeDo,
+.descarbonizacao, .aguaReutilizada {
+  color: rgb(92, 92, 92);
+  background-color: #fff;
+  font-size: 22.5px;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+
+}
+
+.caption span.topic{
+  background-color: transparent;
+  font-size: 35px;
+  color: #f7f7f7;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .caption span.title {
+    background-color: #a7ab5f;
+    color: #fff;
+    padding: 18px;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+
+}
